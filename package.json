@@ -3,7 +3,7 @@
   "version": "0.13.0",
   "description": "Utilities for the creation of D2 CLI modules",
   "main": "index.js",
-  "repository": "https://github.com/dhis2/cli",
+  "repository": "https://github.com/dhis2/cli-helpers-engine",
   "author": "Austin McGee <austin@dhis2.org>",
   "license": "BSD-3-Clause",
   "dependencies": {
