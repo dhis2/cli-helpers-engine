@@ -7,7 +7,7 @@ deploy:
 - provider: script
   skip_cleanup: true
   script:
-  - npx semantic-release
+  - npx @dhis2/cli app scripts release --publish npm
   on:
     tags: false
     branch: master
