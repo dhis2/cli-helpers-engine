@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.0.0...v1.0.1) (2019-03-27)
+
+
+### Bug Fixes
+
+* properly catch error and end/close events for raw fetch case ([#5](https://github.com/dhis2/cli-helpers-engine/issues/5)) ([233035a](https://github.com/dhis2/cli-helpers-engine/commit/233035a))
+
 # [1.0.0](https://github.com/dhis2/cli-helpers-engine/compare/v0.13.0...v1.0.0) (2019-03-25)
 
 
