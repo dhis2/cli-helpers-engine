@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.0.1...v1.1.0) (2019-05-10)
+
+
+### Features
+
+* **cache:** add support for request option-object ([#7](https://github.com/dhis2/cli-helpers-engine/issues/7)) ([064a601](https://github.com/dhis2/cli-helpers-engine/commit/064a601))
+
 ## [1.0.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.0.0...v1.0.1) (2019-03-27)
 
 
