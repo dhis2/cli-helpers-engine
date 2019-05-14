@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.1.0...v1.2.0) (2019-05-14)
+
+
+### Features
+
+* read properties from config file and merge with defaults ([#12](https://github.com/dhis2/cli-helpers-engine/issues/12)) ([6a2b06c](https://github.com/dhis2/cli-helpers-engine/commit/6a2b06c))
+
 # [1.1.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.0.1...v1.1.0) (2019-05-10)
 
 
