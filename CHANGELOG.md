@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.2.0...v1.2.1) (2019-05-23)
+
+
+### Bug Fixes
+
+* move the command configuration to the module itself ([#14](https://github.com/dhis2/cli-helpers-engine/issues/14)) ([44db99d](https://github.com/dhis2/cli-helpers-engine/commit/44db99d))
+
 # [1.2.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.1.0...v1.2.0) (2019-05-14)
 
 
