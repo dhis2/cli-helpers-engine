@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.2.1...v1.3.0) (2019-06-03)
+
+
+### Features
+
+* expose read and write commands for files in cache ([#16](https://github.com/dhis2/cli-helpers-engine/issues/16)) ([f0f10f8](https://github.com/dhis2/cli-helpers-engine/commit/f0f10f8))
+
 ## [1.2.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.2.0...v1.2.1) (2019-05-23)
 
 
