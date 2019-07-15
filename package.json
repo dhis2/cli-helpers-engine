@@ -18,7 +18,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@dhis2/cli-style": "3.3.4",
+    "@dhis2/cli-style": "4.1.0",
     "husky": "^3.0.0"
   },
   "husky": {
