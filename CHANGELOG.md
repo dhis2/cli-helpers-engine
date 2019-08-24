@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.3.0...v1.3.1) (2019-08-24)
+
+
+### Bug Fixes
+
+* use fs-extra's readdir, not readDir ([a6093f4](https://github.com/dhis2/cli-helpers-engine/commit/a6093f4))
+
 # [1.3.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.2.1...v1.3.0) (2019-06-03)
 
 
