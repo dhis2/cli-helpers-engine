@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.3.1...v1.4.0) (2019-08-24)
+
+
+### Features
+
+* support captured output when running exec ([0119fe6](https://github.com/dhis2/cli-helpers-engine/commit/0119fe6))
+
 ## [1.3.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.3.0...v1.3.1) (2019-08-24)
 
 
