@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.4.0...v1.4.1) (2019-08-28)
+
+
+### Bug Fixes
+
+* verify statuscode is between 200-399 ([#23](https://github.com/dhis2/cli-helpers-engine/issues/23)) ([9d829e5](https://github.com/dhis2/cli-helpers-engine/commit/9d829e5))
+
 # [1.4.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.3.1...v1.4.0) (2019-08-24)
 
 
