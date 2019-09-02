@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/dhis2/cli-helpers-engine/compare/v1.4.1...v1.4.2) (2019-09-02)
+
+
+### Bug Fixes
+
+* use shell: true option in exec to support windows ([#25](https://github.com/dhis2/cli-helpers-engine/issues/25)) ([0a732f5](https://github.com/dhis2/cli-helpers-engine/commit/0a732f5))
+
 ## [1.4.1](https://github.com/dhis2/cli-helpers-engine/compare/v1.4.0...v1.4.1) (2019-08-28)
 
 
