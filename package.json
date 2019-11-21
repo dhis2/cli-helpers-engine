@@ -7,7 +7,7 @@
   "author": "Austin McGee <austin@dhis2.org>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "fs-extra": "^8.0.1",
     "request": "^2.88.0",
     "tar": "^4.4.8",
