@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.4.2...v1.5.0) (2019-11-22)
+
+
+### Features
+
+* re-export chalk so we don't have additional deps everywhere ([#27](https://github.com/dhis2/cli-helpers-engine/issues/27)) ([94f2259](https://github.com/dhis2/cli-helpers-engine/commit/94f22596c9c12f7039ada264ad38ee15e0447659))
+
 ## [1.4.2](https://github.com/dhis2/cli-helpers-engine/compare/v1.4.1...v1.4.2) (2019-09-02)
 
 
