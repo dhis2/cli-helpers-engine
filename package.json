@@ -1,33 +1,33 @@
 {
-  "name": "@dhis2/cli-helpers-engine",
-  "version": "1.5.0",
-  "description": "Utilities for the creation of D2 CLI modules",
-  "main": "index.js",
-  "repository": "https://github.com/dhis2/cli-helpers-engine",
-  "author": "Austin McGee <austin@dhis2.org>",
-  "license": "BSD-3-Clause",
-  "engines": {
-    "node": ">=10"
-  },
-  "dependencies": {
-    "chalk": "^3.0.0",
-    "fs-extra": "^8.0.1",
-    "request": "^2.88.0",
-    "tar": "^4.4.8",
-    "update-notifier": "^3.0.0",
-    "yargs": "^13.1.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "devDependencies": {
-    "@dhis2/cli-style": "^6.0.0",
-    "husky": "^3.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "d2-style commit check",
-      "pre-commit": "d2-style js apply"
+    "name": "@dhis2/cli-helpers-engine",
+    "version": "1.5.0",
+    "description": "Utilities for the creation of D2 CLI modules",
+    "main": "index.js",
+    "repository": "https://github.com/dhis2/cli-helpers-engine",
+    "author": "Austin McGee <austin@dhis2.org>",
+    "license": "BSD-3-Clause",
+    "engines": {
+        "node": ">=10"
+    },
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "fs-extra": "^8.0.1",
+        "request": "^2.88.0",
+        "tar": "^4.4.8",
+        "update-notifier": "^3.0.0",
+        "yargs": "^13.1.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@dhis2/cli-style": "^6.0.0",
+        "husky": "^3.0.0"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "d2-style commit check",
+            "pre-commit": "d2-style js apply"
+        }
     }
-  }
 }
