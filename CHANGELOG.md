@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dhis2/cli-helpers-engine/compare/v2.0.0...v2.0.1) (2020-05-06)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([f5b3573](https://github.com/dhis2/cli-helpers-engine/commit/f5b3573e82299fe4066b59fbfcb3e0873a0c04c2))
+
 # [2.0.0](https://github.com/dhis2/cli-helpers-engine/compare/v1.5.0...v2.0.0) (2020-04-02)
 
 
