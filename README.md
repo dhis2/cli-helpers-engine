@@ -87,18 +87,61 @@ Any CLI command instantiated with `@dhis2/cli-helpers-engine` will have an injec
 The most handy method of the `d2` Cache is `get`, which allows the developer to fetch a remote URL, optionally extract it if the download is a zip file, and store it in the cache. If a copy already exists in the cache, the download is skipped (unless `force: true` is specified):
 
 ```js
-const url =
-    'https://spreadsheets.google.com/feeds/list/1Fd-vBoJPjp5wdCyJc7d_LOJPOg5uqdzVa3Eq5-VFR-g/2/public/values?alt=json'
+const { makeEntryPoint } = require('@dhis2/cli-helpers-engine')
 
-// This will download a json file listing all countries which implement DHIS2 and store it in
-cache.get(url, 'dhis2-in-action-countries.json', { force: true })
+const handler = async ({ force, getCache }) => {
+    const cache = getCache()
 
-// And now an example for a zip file
-const dbUrl =
-    'https://databases.dhis2.org/sierra-leone/2.35.0/dhis2-db-sierra-leone.sql.gz'
+    const url =
+        'https://spreadsheets.google.com/feeds/list/1Fd-vBoJPjp5wdCyJc7d_LOJPOg5uqdzVa3Eq5-VFR-g/2/public/values?alt=json'
 
-// This will download the demo database for 2.35.0 and store it in the cache.  The 'raw' option means the .gz file will NOT be unpacked, but rather stored directly on disk.  If a version of this file already exists in the cache, it will not be fetched again.
-cache.get(dbUrl, 'databases/2.35.0.sql.gz', { raw: true })
+    // This will download a json file listing all countries which implement DHIS2 and store it in the cache.
+    // It will *always* be re-downloaded, but if the download fails and a previous cache exists life goes on.
+    const dataCachePath = 'dhis2-in-action-countries.json'
+    try {
+        await cache.get(url, dataCachePath, { force: true })
+    } catch (e) {
+        const exists = await cache.exists(dataCachePath)
+        if (!exists) {
+            reporter.error('Failed to download new in-action data, and no cached data exists')
+            process.exit(1)
+        }
+        const modifiedTime = (await cache.stat(dataCachePath)).mtime.toISOString()
+        reporter.debug(`Failed to update in-action data cache, using previously-cached data from ${modifiedTime}`)
+    }
+
+    // And now an example for a zip file
+    const dbUrl =
+        'https://databases.dhis2.org/sierra-leone/2.35.0/dhis2-db-sierra-leone.sql.gz'
+
+    // This will download the demo database for 2.35.0 and store it in the cache.  The 'raw' option means the .gz file will NOT be unpacked, but rather stored directly on disk.  If a version of this file already exists in the cache, it will not be fetched again, unless the `force` option is passed to this command.
+    await cache.get(dbUrl, 'databases/2.35.0.sql.gz', { raw: true, force: force })
+
+    // List all currently-downloaded databases
+
+    const dirStat = await cache.exists('databases') ? await cache.stat('databases') : null
+    if (dirStat && dirStat.children) {
+        Object.entries(dirStat.children)
+            .forEach(([name, stat]) => {
+                reporter.print(`${chalk.bold(name)} (${stat.size})`)
+            })
+    } else {
+        reporter.print('No databases found')
+    }
+}
+
+const command = {
+    builder: yargs => {
+        yargs.option('force', {
+            alias: 'f',
+            type: 'boolean',
+            description: 'force re-download of all cached items',
+            default: false
+        }
+    },
+    handler
+})
+makeEntryPoint(command)
 ```
 
 For examples of the cache in action, check out its use in [d2 cluster](https://github.com/dhis2/cli/blob/master/packages/cluster/src/common.js#L11-L52) and [d2 debug cache](https://github.com/dhis2/cli/blob/master/packages/main/src/commands/debug/cache.js)
