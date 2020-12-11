@@ -9,7 +9,7 @@ module.exports.configDefaults = require('./lib/configDefaults')
 // The Cache constructor
 module.exports.Cache = require('./lib/cache')
 
-// Utility functions for interacting with the cli user
+// Utility functions for interacting with the cli user or spawning sidecar processes
 module.exports.reporter = require('./lib/reporter')
 module.exports.exec = require('./lib/exec')
 module.exports.chalk = require('chalk')
