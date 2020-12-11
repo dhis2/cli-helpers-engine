@@ -29,5 +29,9 @@
             "commit-msg": "d2-style commit check",
             "pre-commit": "d2-style js apply"
         }
+    },
+    "scripts": {
+        "lint": "d2-style js check && d2-style text check",
+        "format": "d2-style js apply && d2-style text apply"
     }
 }
