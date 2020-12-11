@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.0.2...v2.1.0) (2020-12-11)
+
+
+### Features
+
+* add a prompt utility which wraps inquirer ([#64](https://github.com/dhis2/cli-helpers-engine/issues/64)) ([59b6dee](https://github.com/dhis2/cli-helpers-engine/commit/59b6deef10861973dbb234f8f11c136c987cc320))
+
 ## [2.0.2](https://github.com/dhis2/cli-helpers-engine/compare/v2.0.1...v2.0.2) (2020-11-06)
 
 
