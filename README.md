@@ -119,7 +119,9 @@ const handler = async ({ force, getCache }) => {
 
     // List all currently-downloaded databases
 
-    const dirStat = await cache.exists('databases') ? await cache.stat('databases') : null
+    const dirStat = (await cache.exists('databases'))
+        ? await cache.stat('databases')
+        : null
     if (dirStat && dirStat.children) {
         Object.entries(dirStat.children)
             .forEach(([name, stat]) => {
