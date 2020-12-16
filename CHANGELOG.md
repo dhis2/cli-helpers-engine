@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/dhis2/cli-helpers-engine/compare/v2.1.0...v2.1.1) (2020-12-16)
+
+
+### Bug Fixes
+
+* add inquirer to the set of dependencies ([#67](https://github.com/dhis2/cli-helpers-engine/issues/67)) ([b4a6e41](https://github.com/dhis2/cli-helpers-engine/commit/b4a6e417806b8c71a2572f02a37b25786459a7c8))
+
 # [2.1.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.0.2...v2.1.0) (2020-12-11)
 
 
