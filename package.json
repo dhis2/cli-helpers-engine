@@ -22,7 +22,7 @@
         "access": "public"
     },
     "devDependencies": {
-        "@dhis2/cli-style": "^7.2.1",
+        "@dhis2/cli-style": "^7.3.0",
         "husky": "^3.0.0"
     },
     "husky": {
