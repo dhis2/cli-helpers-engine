@@ -16,7 +16,7 @@
         "request": "^2.88.0",
         "tar": "^4.4.8",
         "update-notifier": "^3.0.0",
-        "yargs": "^13.1.0"
+        "yargs": "^17.0.0"
     },
     "publishConfig": {
         "access": "public"
