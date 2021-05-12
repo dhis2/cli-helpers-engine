@@ -10,8 +10,11 @@ module.exports.configDefaults = require('./lib/configDefaults')
 module.exports.Cache = require('./lib/cache')
 
 // Utility functions for interacting with the cli user or spawning sidecar processes
+module.exports.exec = require('./lib/exec.js')
 module.exports.reporter = require('./lib/reporter')
-module.exports.exec = require('./lib/exec')
-module.exports.chalk = require('chalk')
+module.exports.process = require('./lib/process.js')
 module.exports.prompt = require('./lib/prompt')
+
+// Access to wrapped libraries
+module.exports.chalk = require('chalk')
 module.exports.inquirer = require('inquirer')
