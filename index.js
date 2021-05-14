@@ -12,7 +12,7 @@ module.exports.Cache = require('./lib/cache')
 // Utility functions for interacting with the cli user or spawning sidecar processes
 module.exports.exec = require('./lib/exec.js')
 module.exports.reporter = require('./lib/reporter')
-module.exports.process = require('./lib/process.js')
+module.exports.exit = require('./lib/exit.js')
 module.exports.prompt = require('./lib/prompt')
 
 // Access to wrapped libraries
