@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.1.1...v2.2.0) (2021-05-14)
+
+
+### Features
+
+* add additional process exec functions ([#92](https://github.com/dhis2/cli-helpers-engine/issues/92)) ([53f2a58](https://github.com/dhis2/cli-helpers-engine/commit/53f2a584be23d485b4ab2be72858226e93e5f299))
+
 ## [2.1.1](https://github.com/dhis2/cli-helpers-engine/compare/v2.1.0...v2.1.1) (2020-12-16)
 
 
