@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.2.0...v2.3.0) (2021-05-31)
+
+
+### Features
+
+* add helper to identify the project root path ([#96](https://github.com/dhis2/cli-helpers-engine/issues/96)) ([442dd66](https://github.com/dhis2/cli-helpers-engine/commit/442dd66681d44c6cabc4ec6b1b454da79cb8be7b)), closes [/github.com/dhis2/cli-style/blob/master/src/utils/paths.js#L10-L24](https://github.com//github.com/dhis2/cli-style/blob/master/src/utils/paths.js/issues/L10-L24)
+
 # [2.2.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.1.1...v2.2.0) (2021-05-14)
 
 
