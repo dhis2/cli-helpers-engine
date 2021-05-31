@@ -5,6 +5,7 @@ module.exports.namespace = require('./lib/namespace')
 module.exports.notifyOfUpdates = require('./lib/notifyOfUpdates')
 module.exports.tryCatchAsync = require('./lib/tryCatchAsync')
 module.exports.configDefaults = require('./lib/configDefaults')
+module.exports.findProjectRoot = require('./lib/findProjectRoot.js')
 
 // The Cache constructor
 module.exports.Cache = require('./lib/cache')
