@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.3.0...v2.4.0) (2021-06-08)
+
+
+### Features
+
+* **reporter:** log levels ([#98](https://github.com/dhis2/cli-helpers-engine/issues/98)) ([d82fe6a](https://github.com/dhis2/cli-helpers-engine/commit/d82fe6a18e0adbd5e3b10b185d77590768ddd5ad))
+
 # [2.3.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.2.0...v2.3.0) (2021-05-31)
 
 
