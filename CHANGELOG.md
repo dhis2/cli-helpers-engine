@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.4.0...v3.0.0) (2021-06-14)
+
+
+### chore
+
+* remove node 10 support ([#101](https://github.com/dhis2/cli-helpers-engine/issues/101)) ([c23d472](https://github.com/dhis2/cli-helpers-engine/commit/c23d472c68147c738af9c19b4622f24c5f614b3d))
+
+
+### BREAKING CHANGES
+
+* New minimum version for Node is 12.
+
 # [2.4.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.3.0...v2.4.0) (2021-06-08)
 
 
