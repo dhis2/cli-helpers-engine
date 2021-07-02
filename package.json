@@ -25,7 +25,7 @@
     },
     "devDependencies": {
         "@dhis2/cli-style": "^9.0.0",
-        "husky": "^3.0.0"
+        "husky": "^7.0.0"
     },
     "husky": {
         "hooks": {
