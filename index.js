@@ -6,6 +6,7 @@ module.exports.notifyOfUpdates = require('./lib/notifyOfUpdates')
 module.exports.tryCatchAsync = require('./lib/tryCatchAsync')
 module.exports.configDefaults = require('./lib/configDefaults')
 module.exports.findProjectRoot = require('./lib/findProjectRoot.js')
+module.exports.createModuleLoader = require('./lib/createModuleLoader.js')
 
 // The Cache constructor
 module.exports.Cache = require('./lib/cache')
