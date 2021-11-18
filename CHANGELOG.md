@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/dhis2/cli-helpers-engine/compare/v3.0.0...v3.1.0) (2021-11-18)
+
+
+### Features
+
+* **loadmodule:** add project-local module loader ([8e9a204](https://github.com/dhis2/cli-helpers-engine/commit/8e9a2043dd117a72d9db3379d9ed531d37045463))
+
 # [3.0.0](https://github.com/dhis2/cli-helpers-engine/compare/v2.4.0...v3.0.0) (2021-06-14)
 
 
