@@ -12,7 +12,7 @@
     "dependencies": {
         "chalk": "^3.0.0",
         "cross-spawn": "^7.0.3",
-        "find-up": "^5.0.0",
+        "find-up": "^6.2.0",
         "fs-extra": "^8.0.1",
         "inquirer": "^7.3.3",
         "request": "^2.88.0",
