@@ -16,6 +16,7 @@ module.exports.exec = require('./lib/exec.js')
 module.exports.reporter = require('./lib/reporter')
 module.exports.exit = require('./lib/exit.js')
 module.exports.prompt = require('./lib/prompt')
+module.exports.prettyPrint = require('./lib/prettyPrint.js')
 
 // Access to wrapped libraries
 module.exports.chalk = require('chalk')
