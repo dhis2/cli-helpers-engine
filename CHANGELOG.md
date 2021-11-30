@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/dhis2/cli-helpers-engine/compare/v3.1.0...v3.1.1) (2021-11-29)
+
+
+### Bug Fixes
+
+* catch unhandled rejections ([50ca241](https://github.com/dhis2/cli-helpers-engine/commit/50ca241c3e135a754e2582a9305486b9caf35372))
+
 # [3.1.0](https://github.com/dhis2/cli-helpers-engine/compare/v3.0.0...v3.1.0) (2021-11-18)
 
 
