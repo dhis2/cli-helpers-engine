@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/dhis2/cli-helpers-engine/compare/v3.1.1...v3.2.0) (2021-12-07)
+
+
+### Features
+
+* **pretty-print:** add a helper to print relative paths ([ff36a9b](https://github.com/dhis2/cli-helpers-engine/commit/ff36a9b868c3478c5730552ad184a2ced9458435))
+
 ## [3.1.1](https://github.com/dhis2/cli-helpers-engine/compare/v3.1.0...v3.1.1) (2021-11-29)
 
 
