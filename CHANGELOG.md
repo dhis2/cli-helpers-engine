@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/dhis2/cli-helpers-engine/compare/v3.2.0...v3.2.1) (2022-01-06)
+
+
+### Bug Fixes
+
+* **create-module-loader:** handle case where findProject root returns undefined ([#151](https://github.com/dhis2/cli-helpers-engine/issues/151)) ([d27204d](https://github.com/dhis2/cli-helpers-engine/commit/d27204ddfd7a87c6680b5562e364221b005a5343))
+
 # [3.2.0](https://github.com/dhis2/cli-helpers-engine/compare/v3.1.1...v3.2.0) (2021-12-07)
 
 
