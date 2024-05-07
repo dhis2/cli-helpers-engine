@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/dhis2/cli-helpers-engine/compare/v3.2.1...v3.2.2) (2024-05-07)
+
+
+### Bug Fixes
+
+* **exec:** prevent errors when stdio option is used on exec ([#225](https://github.com/dhis2/cli-helpers-engine/issues/225)) ([5c2d015](https://github.com/dhis2/cli-helpers-engine/commit/5c2d015f2e760af003c9d674471061586bb8d436))
+
 ## [3.2.1](https://github.com/dhis2/cli-helpers-engine/compare/v3.2.0...v3.2.1) (2022-01-06)
 
 
